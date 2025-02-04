@@ -16,14 +16,17 @@
 ### Closing Venv
 - `deactivate`
 
-### Creating requirements
+### Creating requirements file (if needed)
 - `pip freeze > requirements.txt`
 
 ### Installing using requirements
 - `pip install -r requirements.txt`
 
 ### Installing manually
-- `pip install flask flask_cors numpy pytest`
+- `pip install flask flask_cors pytest`
 
 ## Running the Application
-- server: `python ./server/main.py`
+- `python ./server/main.py`
+
+## Running Tests
+- `pytest ./tests/test_fibonacci.py`

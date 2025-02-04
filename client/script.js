@@ -23,7 +23,6 @@ async function calculateFibonacci() {
         const data = await response.json();
         
         if (data.result !== undefined) {
-            
             resultElement.textContent = `Fibonacci(${number}) = ${data.result}`;
             resultElement.style.color = 'var(--text-color)';
             resultElement.style.backgroundColor='#DBF3C9';
